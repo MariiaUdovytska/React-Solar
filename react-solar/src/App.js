@@ -1,10 +1,10 @@
-// import logo from './logo.svg';
-// import './App.css';
+import './css/page.css';
+import SplashScreen from "./SplashScreen";
 
 function App() {
 	return (
-		<div className="App">
-			<div className="hallo">Hello Masha</div>
+		<div className="page">
+			<SplashScreen/>
 		</div>
 	);
 }
