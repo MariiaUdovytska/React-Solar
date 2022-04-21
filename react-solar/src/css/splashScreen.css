@@ -1,14 +1,12 @@
 .splashScreen{
-	position: relative;
-	flex: 0 1 auto;
-}
-.splashScreen-img{
 	background-image: url('../img/header/splash-screen.jpg');
 	background-position: center;
 	background-size: cover;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+	/* width: 100%; */
+	min-height: 100vh;
+}
+
+.splashScreen-body{
+	flex: 1 1 auto;
+	max-width: 962px;
 }

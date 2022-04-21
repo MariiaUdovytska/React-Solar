@@ -1,6 +1,6 @@
 import React from 'react';
 import SplashScreenContent from './SplashScreenContent';
-import './css/splashScreen.css'
+import './css/splashScreen.css';
 
 class SplashScreen extends React.Component {
 	constructor(props) {
@@ -8,11 +8,12 @@ class SplashScreen extends React.Component {
 	}
 	render(){
 		return(
-			<div className='splashScreen'>
-				<div className='splashScreen-img'>
+			<section className='splashScreen' >
+				<div className='splashScreen-body containerM'>
 					<SplashScreenContent/>
+					
 				</div>
-			</div>
+			</section>
 		)
 	}
 }
