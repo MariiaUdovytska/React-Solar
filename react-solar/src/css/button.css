@@ -1,0 +1,21 @@
+.button{}
+.button-body{
+	background-color: transparent;
+	display: flex;
+}
+.button-body-img:hover{
+	background-color: #A9A32A;
+	border-radius: 50%;
+}
+.button-body-img{}
+.button-body-text{
+	color: #fff;
+	align-self: flex-end;
+	margin: 0px 0px 19px -52px;
+}
+
+.button-body-test{
+	background-color: yellow;
+	border-radius: 50%;
+}
+.button-body-test-img{}

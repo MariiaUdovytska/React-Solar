@@ -6,7 +6,7 @@
 	min-height: 100vh;
 }
 
-.splashScreen-body{
+.splashScreen__body{
 	flex: 1 1 auto;
 	max-width: 962px;
 }
