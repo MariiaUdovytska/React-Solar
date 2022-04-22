@@ -1,0 +1,11 @@
+.socialMedia{
+	display: inline-flex;
+    align-items: center;
+    align-self: center;
+}
+.socialMedia img{
+	margin-right: 26px;
+}
+.socialMedia img:last-child{
+	margin-right: 0px;
+}
