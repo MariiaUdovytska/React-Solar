@@ -10,6 +10,7 @@
 .button__body-img{}
 .button__body-text{
 	color: #fff;
+	font-size: 1.3rem;
 	align-self: flex-end;
 	margin: 0px 0px 19px -52px;
 }

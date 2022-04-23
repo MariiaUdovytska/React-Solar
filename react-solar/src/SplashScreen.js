@@ -16,12 +16,21 @@ class SplashScreen extends React.Component {
 		return(
 			<section className='splashScreen' >
 				<div className='splashScreen__body containerM'>
-					<SplashScreenLogo/>
-					<div className='splashScreen__body-up'>Зеленый тариф для дома и бизнеса</div>
-					<h1 className='splashScreen__body-title'>Солнечная электростанция</h1>
-					<div className='splashScreen__body-subtitle'>с доходом от 1000 $ в месяц</div>
-					<SplashScreenBtn btnAction='записаться на консультацию'/>
-					<SocialMedia/>
+					<div className='splashScreen__body-position'>
+						<div className='splashScreen__body-position-content'>
+							<SplashScreenLogo/>
+							<div className='splashScreen__body-up'>Зеленый тариф для дома и бизнеса</div>
+							<h1 className='splashScreen__body-title'>Солнечная электростанция</h1>
+							<div className='splashScreen__body-subtitle'>с доходом от 1000 $ в месяц</div>
+							<div className='splashScreen__body-btn'>
+								<SplashScreenBtn btnAction='записаться на консультацию'/>
+							</div>
+						</div>
+						<div className='splashScreen__body-position-down'>
+							<SocialMedia/>
+						</div>
+					</div>
+					
 				</div>
 			</section>
 		)

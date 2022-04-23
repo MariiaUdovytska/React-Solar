@@ -8,11 +8,39 @@
 
 .splashScreen__body{
 	flex: 1 1 auto;
-	max-width: 962px;
+	max-width: 974px;
 	width: 100%;
 	margin: 0px auto;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	color: #fff;
+}
+.splashScreen__body-position{
+	padding: 76px 0px 38px 0px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.splashScreen__body-position-content{
+	flex: 1 1 auto;
+}
+.splashScreen__body-up{
+	font-size: 1.3rem;
+	margin-top: 17%;
+}
+.splashScreen__body-title{
+	font-weight: bold;
+	font-size: 4.67rem;
+	line-height: 8.4rem;
+}
+.splashScreen__body-subtitle{
+	line-height: 5.4rem;
+	font-size: 3rem;
+	font-weight: 500;
+	margin-bottom: 5.3%;
+}
+.splashScreen__body-btn{
+	margin-bottom: 4.14rem;
 }
