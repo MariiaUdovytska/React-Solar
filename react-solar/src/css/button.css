@@ -14,3 +14,14 @@
 	align-self: flex-end;
 	margin: 0px 0px 19px -52px;
 }
+@media (max-width:840px){
+	.button__body-text{
+		font-size: 1.2rem;
+	}
+}
+@media (max-width:638px){
+	.button__body-text{
+		font-size: 1rem;
+	}
+
+}
