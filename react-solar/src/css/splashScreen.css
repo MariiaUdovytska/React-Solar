@@ -89,3 +89,8 @@
 		font-size: 1.4rem;
 	}
 }
+@media (max-height:683px){
+	.splashScreen__body-up{
+		margin-top: 8%;
+	}
+}
