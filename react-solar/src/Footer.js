@@ -19,15 +19,8 @@ class Footer extends React.Component {
 					<div className='footer__body containerM'>
 						<div className='footer__body-row'>
 							<div className='footer__body-row-left'>
-								<div className='footer__body-row-left-titlt'>ОСТАВИТЬ ЗАЯВКУ</div>
-								{/* <Form.Label htmlFor="inlineFormInput" visuallyHidden>
-									Name
-								</Form.Label> */}
-								<Form.Control
-									className="mb-2"
-									id="inlineFormInput"
-									placeholder="Имя"
-								/>
+								<div className='footer__body-row-left-title'>ОСТАВИТЬ ЗАЯВКУ</div>
+								<Form.Control className="mb-2" id="inlineFormInput" placeholder="Имя"/>
 								<PhoneInput placeholder="Телефон" value="" onChange={(value)=>{}}/>
 								<SplashScreenBtn btnAction='оставить заявку'/>
 							</div>

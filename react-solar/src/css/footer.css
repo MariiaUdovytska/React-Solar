@@ -5,19 +5,63 @@
 	background-size: cover;
 }
 .footer__body{
-	font-size: 2rem;
-	color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	padding: 70px 15px 50px;
 }
+.footer__body-row{
+	display: flex;
+	flex-direction: row;
+}
+.footer__body-row-left{}
+.footer__body-row-left-title{
+	font-size: 1.71rem;
+}
+.footer__body-row-right{}
+.footer__body-row-right-title{
+	font-size: 1.71rem;
+}
+.footer__body-row-right-contactinfo{
+	font-size: 1.3rem;
+	
+}
+
+
+
+
+
+
 .form-control{
 	background-color: transparent;
 	border: none;
 	border-bottom: 2px solid red;
 }
+.form-control:focus{
+	background-color: transparent;
+	border-color: none;
+	color: #fff;
+	-webkit-box-shadow: none;
+          box-shadow: none;
+}
 .PhoneInputInput{
 	flex: 1 1 auto;
 	background-color: transparent;
    border-bottom: 2px solid red;
+	color: #fff;
+}
+.PhoneInputInput:focus{
+	border-color: #86b7fe;
 }
 
-.footer__body-down{}
+
+
+
+
+.footer__body-down{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
 .footer__body-down-policy{}
