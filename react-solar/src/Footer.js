@@ -1,4 +1,5 @@
 import React from 'react';
+import './css/footer.css';
 
 class Footer extends React.Component {
 	constructor(props) {
@@ -6,8 +7,12 @@ class Footer extends React.Component {
 	}
 	render(){
 		return(
-			<footer className='footer containerM' >
-				<div className='footer'> Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</div>
+			<footer className='footer' >
+				<div className='footer__img'> 
+					<div className='footer__body containerM'>
+						Lorem 
+					</div>
+				</div>
 			</footer>
 		)
 	}
