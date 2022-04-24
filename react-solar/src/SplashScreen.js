@@ -1,7 +1,7 @@
 import React from 'react';
 import SplashScreenBtn from './SplashScreenBtn';
 import SplashScreenLogo from './SplashScreenLogo';
-import SocialMedia from './SplashScreenSocialMedia';
+import SocialMedia from './SocialMedia';
 import './css/splashScreen.css';
 import './css/button.css';
 import './css/socialMedia.css';
