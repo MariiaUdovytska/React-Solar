@@ -8,8 +8,16 @@
 	font-size: 2rem;
 	color: antiquewhite;
 }
-
-.footer__body-down{
-
+.form-control{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid red;
 }
+.PhoneInputInput{
+	flex: 1 1 auto;
+	background-color: transparent;
+   border-bottom: 2px solid red;
+}
+
+.footer__body-down{}
 .footer__body-down-policy{}

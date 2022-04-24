@@ -3,10 +3,14 @@ import './css/footer.css';
 import SocialMedia from './SocialMedia';
 import SplashScreenBtn from './SplashScreenBtn';
 import SplashScreenLogo from './SplashScreenLogo';
+import PhoneInput from 'react-phone-number-input'
+import 'react-phone-number-input/style.css'
+import { Form } from 'react-bootstrap';
 
 class Footer extends React.Component {
 	constructor(props) {
 		super(props);
+		
 	}
 	render(){
 		return(
@@ -16,6 +20,15 @@ class Footer extends React.Component {
 						<div className='footer__body-row'>
 							<div className='footer__body-row-left'>
 								<div className='footer__body-row-left-titlt'>ОСТАВИТЬ ЗАЯВКУ</div>
+								{/* <Form.Label htmlFor="inlineFormInput" visuallyHidden>
+									Name
+								</Form.Label> */}
+								<Form.Control
+									className="mb-2"
+									id="inlineFormInput"
+									placeholder="Имя"
+								/>
+								<PhoneInput placeholder="Телефон" value="" onChange={(value)=>{}}/>
 								<SplashScreenBtn btnAction='оставить заявку'/>
 							</div>
 							<div className='footer__body-row-right'>
