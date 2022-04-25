@@ -85,7 +85,7 @@
 	margin-top: -3px;
 }
 .footer__body-down-logo{
-	margin-bottom: -4px;
+	margin-bottom: -11px;
 }
 
 @media(max-width:900px){
@@ -100,7 +100,7 @@
 }
 @media(max-width:667px){
 	.footer__body{
-		padding: 30px 15px 10px;
+		padding: 30px 15px 5px;
 	}
 	.footer__body-row{
 		display: flex;
@@ -111,29 +111,35 @@
 	}
 	.footer__body-row-left-title{
 		font-size: 1.51rem;
-		margin-bottom: 37px;
+		margin-bottom: 18px;
+	}
+	.footer__body-row-left{
+		padding-right: 0px;
+		margin-bottom: 40px;
 	}
 	.footer__body-row-right-title{
 		font-size: 1.51rem;
-		margin-bottom: 37px;
+		margin-bottom: 20px;
 	}
 	.footer__body-row-right-contactinfo{
-		font-size: 1.2rem;
+		font-size: 1.15rem;
 	}
-	.footer__body-row-right-title p{
-		margin-bottom: 0px;
-		line-height: 24.5px;
+	.footer__body-row-right-contactinfo p{
+		margin-bottom: 12px;
+		line-height: 19.5px;
 	}
 
-
+	.PhoneInput{
+		margin: 30px 0px;
+	}
 
 
 	.footer__body-down{
 		flex-direction: column;
-		margin-top: 100px;
+		margin-top: 85px;
 	}
 	.footer__body-down div{
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	.footer__body-down-policy{
 		margin-top: 0px;

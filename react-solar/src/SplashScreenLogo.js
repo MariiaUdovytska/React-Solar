@@ -7,7 +7,7 @@ class SplashScreenLogo extends React.Component {
 	}
 	render(){
 		return(
-			<div >
+			<div>
 				<img width={182} height={51} src={logo} alt="Logo" />
 			</div>
 		)
