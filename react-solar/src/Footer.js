@@ -37,7 +37,7 @@ class Footer extends React.Component {
 						</div>
 						<div className='footer__body-down'>
 							<div className='footer__body-down-policy'>Политика конфиденциальности</div>
-							<div><SplashScreenLogo/></div>
+							<div className='footer__body-down-logo'><SplashScreenLogo/></div>
 							<div><SocialMedia/></div>
 						</div>
 					</div>

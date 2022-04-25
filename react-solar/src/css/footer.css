@@ -14,20 +14,31 @@
 	display: flex;
 	flex-direction: row;
 }
-.footer__body-row-left{}
+.footer__body-row-left{
+	flex: 1 1 50%;
+	padding-right: 91px;
+}
 .footer__body-row-left-title{
 	font-size: 1.71rem;
+	margin-bottom: 57.96px;
 }
-.footer__body-row-right{}
+.footer__body-row-right{
+	flex: 1 1 50%;
+}
 .footer__body-row-right-title{
 	font-size: 1.71rem;
+	margin-bottom: 57.96px;
 }
 .footer__body-row-right-contactinfo{
 	font-size: 1.3rem;
-	
 }
-
-
+.footer__body-row-right-contactinfo p{
+	margin-bottom: 30px;
+	line-height: 24.5px;
+}
+.footer__body-row-right-contactinfo p:last-child{
+	margin-bottom: 0px;
+}
 
 
 
@@ -35,7 +46,9 @@
 .form-control{
 	background-color: transparent;
 	border: none;
-	border-bottom: 2px solid red;
+	border-bottom: 1px solid #FFFFFF;
+	font-size: 1.1rem;
+	border-radius: 0px;
 }
 .form-control:focus{
 	background-color: transparent;
@@ -44,17 +57,20 @@
 	-webkit-box-shadow: none;
           box-shadow: none;
 }
+.PhoneInput{
+	margin: 60px 0px;
+}
 .PhoneInputInput{
 	flex: 1 1 auto;
 	background-color: transparent;
-   border-bottom: 2px solid red;
+   border-bottom: 1px solid #FFFFFF;
 	color: #fff;
+	font-size: 1.1rem;
+	
 }
 .PhoneInputInput:focus{
 	border-color: #86b7fe;
 }
-
-
 
 
 
@@ -63,5 +79,11 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 155px;
 }
-.footer__body-down-policy{}
+.footer__body-down-policy{
+	margin-top: -3px;
+}
+.footer__body-down-logo{
+	margin-bottom: -4px;
+}
