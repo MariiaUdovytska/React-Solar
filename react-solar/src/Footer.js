@@ -21,7 +21,7 @@ class Footer extends React.Component {
 							<div className='footer__body-row-left'>
 								<div className='footer__body-row-left-title'>ОСТАВИТЬ ЗАЯВКУ</div>
 								<Form.Control className="mb-2" id="inlineFormInput" placeholder="Имя"/>
-								<PhoneInput placeholder="Телефон" value="" onChange={(value)=>{}}/>
+								<PhoneInput value="" onChange={(value)=>{}} placeholder="Телефон"/>
 								<SplashScreenBtn btnAction='оставить заявку'/>
 							</div>
 							<div className='footer__body-row-right'>
