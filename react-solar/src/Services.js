@@ -9,7 +9,7 @@ class Services extends React.Component {
 		return(
 			<section className='services'>
 				<div className='services-body containerM'>
-					<div className='services-body-title'>УСЛУГИ</div>
+					<div className='services-body-title titleM'>УСЛУГИ</div>
 					<div className='services-body-row'>
 						<div className='services-body-left'>
 							<div className='services-body-left-info'>
