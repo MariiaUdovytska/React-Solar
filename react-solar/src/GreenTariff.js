@@ -1,8 +1,11 @@
 import React from 'react';
 import './css/greenTariff.css';
-import Carousel from './Carousel';
 import './css/carousel.css';
+import './css/carouselExternal.css';
+import Carousel from './Carousel';
 import carousel1 from './img/greentariff/carousel1.jpg';
+import CarouselExternal from './CarouselExternal';
+
 
 class GreenTariff extends React.Component {
 	constructor(props) {
@@ -16,7 +19,9 @@ class GreenTariff extends React.Component {
 					<div className='greenTariff__body-title titleM'>ЗЕЛЕНЫЙ ТАРИФ</div>
 					<div className='greenTariff__body-row'>
 						<div className='greenTariff__body-row-left'>
-							<div className='greenTariff__body-row-left-corouselUp'></div>
+							<div className='greenTariff__body-row-left-corouselUp'>
+								<CarouselExternal/>
+							</div>
 							<div className='greenTariff__body-row-left-corouselDown'>
 								<div className='greenTariff__body-row-left-corouselDown-img'>
 									<img src={carousel1} alt='Carousel1' width={235} height={200}></img>
