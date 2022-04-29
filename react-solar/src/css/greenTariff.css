@@ -22,7 +22,7 @@
 .greenTariff__body-row-left-corouselUp{}
 
 
-.greenTariff__body-row-left-corouselDown{
+/* .greenTariff__body-row-left-corouselDown{
 	display: flex;
 	flex-direction: row;
 }
@@ -39,7 +39,7 @@
 .greenTariff__body-row-left-corouselDown-carousel{
 	flex: 1 1 50%;
 
-}
+} */
 
 
 
@@ -74,25 +74,14 @@
 }
 
 
-@media (max-width: 1132px){
-	.greenTariff__body-row-left-corouselDown-img{
-		padding-right: 30px;
-	}
-}
 
 @media (max-width: 1082px) {
 	.greenTariff__body-row-left{
 		padding-right: 39px;
 	}
-	.greenTariff__body-row-left-corouselDown-img{
-		padding-right: 20px;
-	}
 }
 @media (max-width: 965px) {
 	.greenTariff__body-row-left{
 		padding-right: 25px;
-	}
-	.greenTariff__body-row-left-corouselDown-img{
-		padding-right: 10px;
 	}
 }

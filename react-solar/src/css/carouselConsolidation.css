@@ -1,0 +1,35 @@
+.corouselConsolidation{
+	display: flex;
+	flex-direction: row;
+}
+.corouselConsolidation__img {
+	padding-right: 40px;
+}
+.corouselConsolidation__img img{
+	width: 100%;
+	height: 100%;
+	object-fit: none;
+	flex: 1 1 50%;
+	
+}
+.corouselConsolidation__carousel{
+	flex: 1 1 50%;
+
+}
+
+@media (max-width: 1132px){
+	.corouselConsolidation__img{
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 1082px) {
+	.corouselConsolidation__img{
+		padding-right: 20px;
+	}
+}
+@media (max-width: 965px) {
+	.corouselConsolidation__img{
+		padding-right: 10px;
+	}
+}

@@ -1,0 +1,11 @@
+.carouselRestrictions{
+	line-height: 19.07px;
+}
+.carouselRestrictions__title{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+.carouselRestrictions p{
+	margin-bottom: 5px;
+}

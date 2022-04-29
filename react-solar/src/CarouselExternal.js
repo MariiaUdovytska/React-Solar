@@ -10,7 +10,16 @@ class CarouselExternal extends React.Component {
 		
 		return(
 			<div className='carouselExternal'>
-				
+				<div className='carouselExternal__body'>
+					<div className='carouselExternal__body-name'>
+						<span  className='carouselExternal__body-name-sp'>продажа</span>
+						<span  className='carouselExternal__body-name-sp'>закрепление</span>
+						<span  className='carouselExternal__body-name-sp'>ограничения</span>
+					</div>
+					<div>
+						
+					</div>
+				</div>
 			</div>
 		)
 	}
