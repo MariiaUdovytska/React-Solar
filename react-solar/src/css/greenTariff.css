@@ -1,0 +1,63 @@
+.greenTariff {}
+
+.greenTariff__body {
+	display: flex;
+	flex-direction: column;
+	margin-top: 150px;
+}
+
+.greenTariff__body-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.greenTariff__body-row-left {
+	flex: 1 1 50%;
+}
+
+
+
+
+.greenTariff__body-row-left-corouselUp{}
+
+
+.greenTariff__body-row-left-corouselDown{
+	display: flex;
+	flex-direction: row;
+}
+.greenTariff__body-row-left-corouselDown-img{}
+.greenTariff__body-row-left-corouselDown-carousel{
+
+}
+
+
+
+
+.greenTariff__body-row-right {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 50%;
+}
+
+.greenTariff__body-row-right-text {
+	font-size: 1.28rem;
+	font-weight: 700;
+	line-height: 24.52px;
+	margin-bottom: 17px;
+}
+
+.greenTariff__body-row-right-img {
+	position: relative;
+	height: 100%;
+}
+
+.greenTariff__body-row-right-img-i {
+	background-image: url('../img/greentariff/greenTariff.jpg');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}

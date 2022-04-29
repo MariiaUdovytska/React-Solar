@@ -1,9 +1,11 @@
 .carouse{}
-.carousel__content{}
+.carousel__content{
+	margin-bottom: 66px;
+	line-height: 19.07px;
+}
 
 .carousel__content-items{
-	width: 400px;
-	border: solid;
+	width: 235px;
 	overflow: hidden;
 	display: flex;
 }
