@@ -4,6 +4,7 @@
 }
 .carouselExternal__body-name{
 	display: inline-flex;
+	margin-bottom: 125px;
 }
 .carouselExternal__body-name span{
 	font-size: 1.28rem;
@@ -14,6 +15,13 @@
 	margin-right: 0px;
 }
 .carouselExternal__body-name span:active::after{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #868585;
+}
+.carouselExternal__active:after{
 	display: block;
 	content: "";
 	width: 100%;

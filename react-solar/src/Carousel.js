@@ -6,7 +6,6 @@ class Carousel extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {move:0, postition:0};
-		console.log(props.children);
 	}
 
 	leftButtonClick = () =>{
