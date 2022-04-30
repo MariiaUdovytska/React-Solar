@@ -1,7 +1,7 @@
 .carousel{
 }
 .carousel__content{
-	margin-bottom: 50px;
+	height: 183px;
 	line-height: 19.07px;
 	display: grid;
 }
@@ -26,3 +26,10 @@
 	margin-right: 22px;
 }
 .carousel__btns-right{}
+
+
+/* @media (max-width:1190px) {
+	.carousel__content{
+		margin-bottom: 45px;
+	}
+} */
