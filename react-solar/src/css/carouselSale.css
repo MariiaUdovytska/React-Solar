@@ -7,22 +7,16 @@
 }
 .corouselSale__img img{
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 	object-fit: none;
-	flex: 1 1 50%;
-	
 }
-.corouselSale__carousel{
-	flex: 1 1 50%;
-
-}
+.corouselSale__carousel{}
 
 @media (max-width: 1132px){
 	.corouselSale__img{
 		padding-right: 30px;
 	}
 }
-
 @media (max-width: 1082px) {
 	.corouselSale__img{
 		padding-right: 20px;

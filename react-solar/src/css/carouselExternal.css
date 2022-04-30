@@ -1,0 +1,34 @@
+.carouselExternal{}
+.carouselExternal__body{
+	display: grid;
+}
+.carouselExternal__body-name{
+	display: inline-flex;
+}
+.carouselExternal__body-name span{
+	font-size: 1.28rem;
+	line-height: 24.52px;
+	margin-right: 40px;
+}
+.carouselExternal__body-name span:last-child{
+	margin-right: 0px;
+}
+.carouselExternal__body-name span:active::after{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #868585;
+}
+.carouselExternal__body-name-sp{}
+
+.carouselExternal__body-content-items{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+}
+.carouselExternal__body-content-item{
+	display: inline-block;
+	min-width:100%;
+   transition: transform 2s;
+}

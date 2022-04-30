@@ -3,10 +3,11 @@
 .carousel__content{
 	margin-bottom: 50px;
 	line-height: 19.07px;
+	display: grid;
 }
 
 .carousel__content-items{
-	width: 235px;
+	max-width: 235px;
 	overflow: hidden;
 	display: flex;
 }

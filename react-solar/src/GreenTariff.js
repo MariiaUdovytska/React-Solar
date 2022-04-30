@@ -20,13 +20,10 @@ class GreenTariff extends React.Component {
 					<div className='greenTariff__body-title titleM'>ЗЕЛЕНЫЙ ТАРИФ</div>
 					<div className='greenTariff__body-row'>
 						<div className='greenTariff__body-row-left'>
-							<div className='greenTariff__body-row-left-corouselUp'>
-								<CarouselExternal>
-									<CarouselSale/>
-									<CarouselConsolidation/>
-									<CarouselRestrictions/>
-								</CarouselExternal>
-							</div>
+							{/* <div className='greenTariff__body-row-left-corouselUp'> */}
+								<CarouselExternal/>
+								
+							{/* </div> */}
 						</div>
 						
 						<div className='greenTariff__body-row-right'>
@@ -34,10 +31,8 @@ class GreenTariff extends React.Component {
 							<div className='greenTariff__body-row-right-img'>
 								<div className='greenTariff__body-row-right-img-i'></div>
 							</div>
-							
 						</div>
 					</div>
-					
 				</div>
 			</section>
 				
