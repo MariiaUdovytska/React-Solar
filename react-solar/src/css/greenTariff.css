@@ -20,7 +20,27 @@
 
 
 .greenTariff__body-row-left-corouselUp{}
+.greenTariff__body-row-left-inform{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr 1fr ;
+	margin-top: 100px;
+	grid-column-gap: 40px;
+	grid-row-gap: 19px;
+	
+} 
 
+.greenTariff__body-row-left-inform-item h2{
+	font-size: 1.28rem;
+	font-weight: 700;
+	line-height: 24.52px;
+	
+}
+.greenTariff__body-row-left-inform-item p{
+	line-height: 19.07px;
+	font-size: 1rem;
+	margin-bottom: 0px;
+}
 
 /* .greenTariff__body-row-left-corouselDown{
 	display: flex;
