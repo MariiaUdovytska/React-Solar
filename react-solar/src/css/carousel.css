@@ -28,8 +28,8 @@
 .carousel__btns-right{}
 
 
-/* @media (max-width:1190px) {
+@media (max-width: 795px) {
 	.carousel__content{
-		margin-bottom: 45px;
+		height: 194px;
 	}
-} */
+}

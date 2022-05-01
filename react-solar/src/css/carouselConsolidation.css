@@ -31,3 +31,8 @@
 		padding-right: 10px;
 	}
 }
+@media (max-width: 795px) {
+	.corouselConsolidation__img{
+		padding-top: 8px;
+	}
+}
