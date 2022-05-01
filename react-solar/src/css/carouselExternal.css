@@ -52,3 +52,19 @@
 		width: 50%;
 	}
 } 
+@media (max-width: 795px){
+	.carouselExternal__body-name{
+		margin-bottom: 50px;
+	}
+	.carouselExternal__body-content-items {
+		width: 328px
+	}
+	.carouselExternal__body-name span{
+		font-size: 1.22rem;
+		line-height: 20.52px;
+		margin-right: 28px;
+	}
+	.carouselExternal__body {
+		justify-items: center;
+	}
+}

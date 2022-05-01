@@ -81,6 +81,10 @@
 	}
 } 
 @media (max-width: 909px) {
+	.greenTariff__body{
+		margin-top: 90px;
+		/* margin-bottom: 35px; */
+	}
 	.greenTariff__body-row {
 		flex-direction: column;
 		align-self: center;
@@ -88,6 +92,11 @@
 	.greenTariff__body-row-left-inform{
 		width: 50%;
 		margin: 64px auto 0px;
+	}
+	.greenTariff__body-row-left-inform-item h2{
+		font-size: 1.2rem;
+		line-height: 20.52px;
+		margin-bottom: 5px;
 	}
 	.greenTariff__body-row-right{
 		flex: 1 1 300px;
@@ -97,3 +106,14 @@
 		height: 100%;
 	}
 } 
+@media (max-width: 795px){
+	.greenTariff__body-row-left {
+		padding: 0px 15px;
+	}
+	.greenTariff__body-row-left-inform{
+		margin: 40px auto 0px;
+	}
+	/* .greenTariff__body-row-right {
+		padding: 0px 15px;
+	} */
+}
