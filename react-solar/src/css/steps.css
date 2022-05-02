@@ -1,10 +1,50 @@
 .steps{}
-.steps__body{}
-.steps__body-column{}
+.steps__body{
+	display: flex;
+	flex-direction: row;
+	margin-top: 150px;
+}
+.steps__body-column{
+	flex: 1 1 50%;
+	padding-right: 89px;
+}
 .steps__body-left{}
 .steps__body-left-info{}
 .steps__body-left-info-block{}
+.steps__body-left-info-block span{
+	display: block;
+	margin-bottom: 11px;
+	color: #868585;
+}
+.steps__body-left-info-block h2{
+	font-size: 1.28rem;
+	line-height: 24.52px;
+	font-weight: bold;
+	color: #303030;
+	margin-bottom: 2px;
+}
+.steps__body-left-info-block p{
+	font-size: 1rem;
+	color: #303030;
+	margin-bottom: 30px;
+}
+.steps__body-left-info-block:last-child p {
+	margin-bottom: 0px;
+}
 
 
-.steps__body-right{}
-.steps__body-right-img{}
+
+.steps__body-right{
+	flex: 1 1 50%;
+	position: relative;
+}
+.steps__body-right-img{
+	background-image: url('../img/steps/steps.png');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
