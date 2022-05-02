@@ -9,6 +9,7 @@
 	flex-direction: column;
 	color: #fff;
 	padding: 70px 15px 50px;
+	margin-top: 150px;
 }
 .footer__body-row{
 	display: flex;
@@ -88,6 +89,11 @@
 	margin-bottom: -11px;
 }
 
+@media (max-width: 909px){
+	.footer__body{
+		margin-top: 90px;
+	}
+}
 @media(max-width:900px){
 	.footer__body-row-left{
 		padding-right: 69px;
