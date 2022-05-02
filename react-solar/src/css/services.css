@@ -1,48 +1,39 @@
 .services{}
-.services-body{
+.services__body{
 	display: flex;
 	flex-direction: column;
 	margin-top: 150px;
 	
 }
-
-
-/* .services-body-title{
-	font-size: 1.7rem;
-	text-transform: uppercase;
-	color: #868585;
-	margin-bottom: 60px;
-} */
-.services-body-row{
+.services__body-row{
 	display: flex;
 	flex-direction: row;
 }
-.services-body-left{
+.services__body-left{
 	flex: 1 1 50%;
 	padding-right: 89px;
 }
-.services-body-left-info{}
-.services-body-left-info-block h2{
+.services__body-left-info-block h2{
 	font-size: 1.28rem;
 	line-height: 24.52px;
 	font-weight: bold;
 	color: #303030;
 	margin-bottom: 15px;
 }
-.services-body-left-info-block p{
+.services__body-left-info-block p{
 	font-size: 1rem;
 	color: #303030;
 	margin-bottom: 50px;
 }
-.services-body-left-info div:last-child p{
+.services__body-left-info div:last-child p{
 	margin-bottom: 0px;
 }
 
-.services-body-right{
+.services__body-right{
 	position: relative;
 	flex: 1 1 50%;
 }
-.services-body-right-img{
+.services__body-right-img{
 	background-image: url('../img/services/services.jpg');
 	background-position: center;
 	background-size: cover;
@@ -53,56 +44,51 @@
 	width: 100%;
 }
 @media (max-width: 1082px) {
-	.services-body-left{
+	.services__body-left{
 		padding-right: 39px;
 	}
 	
 }
 @media (max-width: 965px) {
-	.services-body-left{
+	.services__body-left{
 		padding-right: 25px;
 	}
-	.services-body-left-info-block h2{
+	.services__body-left-info-block h2{
 		font-size: 1.2rem;
 		line-height: 20.52px;
 		margin-bottom: 10px;
 	}
-	.services-body-left-info-block p{
+	.services__body-left-info-block p{
 		margin-bottom: 35px;
 	}
-	.services-body-left-info div:last-child p{
+	.services__body-left-info div:last-child p{
 		margin-bottom: 0px;
 	}
 }
 @media (max-width: 909px){
-	.services-body{
+	.services__body{
 		margin-top: 90px;
-		/* margin-bottom: 35px; */
 	}
-	/* .services-body-title{
-		text-align: center;
-		margin-bottom: 40px;
-	} */
-	.services-body-row{
+	.services__body-row{
 		flex-direction: column;
 	}
-	.services-body-left{
+	.services__body-left{
 		padding-right: 0px;
 		margin-bottom: 30px;
 	}
-	.services-body-left-info-block h2{
+	.services__body-left-info-block h2{
 		margin-bottom: 5px;
 	}
-	.services-body-left-info-block p{
+	.services__body-left-info-block p{
 		margin-bottom: 25px;
 	}
-	.services-body-right{
+	.services__body-right{
 		flex: 1 1 200px;
 	}
-	.services-body-right-img{
+	.services__body-right-img{
 		height: 100%;
 	}
-	.services-body-left-info-block p{
+	.services__body-left-info-block p{
 		text-align: justify;
 	}
 }
