@@ -10,7 +10,9 @@ class Slogan extends React.Component {
 
 		return(
 			<div className='slogan'>
-				
+				<div className='slogan__body containerM'>
+					<div className='slogan__body-content'>«Солнечная электростанция <br/>— идеальное вложение средств в свою энергонезависимость и пассивный доход»</div>
+				</div>
 			</div>
 		)
 	}

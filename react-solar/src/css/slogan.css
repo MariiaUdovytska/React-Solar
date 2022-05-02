@@ -1,0 +1,36 @@
+.slogan{
+	background-image: url('../img/slogan/slogan.jpg');
+	background-position: center;
+	background-size: cover;
+	margin-top: 150px;
+}
+.slogan__body{
+	color: #fff;
+	padding: 124px 0px 140px 0px;
+	max-width: 673px;
+	font-size: 3rem;
+	text-align: center;
+	line-height: 4.08rem;
+}
+@media (max-width:980px){
+	.slogan__body{
+		font-size: 2.8rem;
+	}
+}
+@media (max-width: 909px) {
+	.slogan{
+		margin-top: 90px;
+	}
+}
+@media (max-width:840px){
+	.slogan__body{
+		font-size: 2.6rem;
+		line-height: 3.5rem;
+	}
+}
+@media (max-width:720px){
+	.slogan__body{
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+}
