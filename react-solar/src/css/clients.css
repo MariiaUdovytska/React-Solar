@@ -1,0 +1,48 @@
+.client{}
+.clients__body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 150px;
+}
+.clients__title{}
+.clients__body-row{
+	display: flex;
+	flex-direction: row;
+}
+.clients__body-left{
+	flex: 1 1 50%;
+	padding-right: 89px;
+}
+.clients__body-right{
+	flex: 1 1 50%;
+}
+.clients__body-right-info{
+}
+.clients__body-right-info h2{
+	font-size: 1.28rem;
+	line-height: 24.52px;
+	font-weight: bold;
+	color: #303030;
+	margin-bottom: 15px;
+}
+
+.clients__body-right-info-p{
+	margin-bottom: 50px;
+}
+.clients__body-right-info-p p{
+	font-size: 1rem;
+	color: #303030;
+	margin-bottom: 15px;
+	margin-left: 50px;
+}
+
+@media (max-width: 1082px) {
+	.clients__body-left{
+		padding-right: 39px;
+	}
+}
+@media (max-width: 909px){
+	.clients__body{
+		margin-top: 90px;
+	}
+}
