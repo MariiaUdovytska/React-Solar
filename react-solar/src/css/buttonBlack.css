@@ -1,0 +1,30 @@
+.buttonBlack{}
+.buttonBlack__body{
+	background-color: transparent;
+	display: inline-flex;
+}
+.buttonBlack__body-img:hover{
+	background-color: #A9A32A;
+	border-radius: 50%;
+}
+.buttonBlack__body-img{}
+.buttonBlack__body-img img{
+	filter: invert(93%) sepia(32%) saturate(0%) hue-rotate(188deg) brightness(95%) contrast(94%);
+}
+
+.buttonBlack__body-text{
+	color: black;
+	font-size: 1.3rem;
+	align-self: flex-end;
+	margin: 0px 0px 19px -52px;
+}
+@media (max-width:840px){
+	.buttonBlack__body-text{
+		font-size: 1.2rem;
+	}
+}
+@media (max-width:638px){
+	.buttonBlack__body-text{
+		font-size: 1rem;
+	}
+}
