@@ -16,7 +16,7 @@ class Clients extends React.Component {
 					<div className='clients__title titleM'>НАШИ КЛИЕНТЫ</div>
 					<div className='clients__body-row'>
 						<div className='clients__body-left'>
-							<Carousel>
+							<Carousel  marginForBtns={{marginLeft:'50%', marginTop:'10px'}}>
 								<div>
 									<img src={clients1} alt="Clients1" />
 								</div>
