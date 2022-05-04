@@ -30,7 +30,7 @@ class Clients extends React.Component {
 						
 						<div className='clients__body-right'>
 							<div className='clients__body-right-info'>
-								<h2>Солнечная электростанция 30 кВт подключенная по Зеленому Тарифу</h2>
+								<h2>Солнечная электростанция 30 кВт подключенная по Зеленому&nbsp;Тарифу</h2>
 								<div className='clients__body-right-info-p'>
 									<p>Расположение: Харьковская обл., г. Харьков</p>
 									<p>Чистый доход за вычетом налогов с мая 2017 г. по май 2019 г. 13&nbsp;900&nbsp;$.</p>

@@ -73,8 +73,6 @@
 @media (max-width: 909px){
 	.steps__body{
 		margin-top: 90px;
-	}
-	.steps__body{
 		flex-direction: column;
 	}
 	.steps__body-left{
