@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React-Solar/static/css/main.ece2d494.css",
+    "main.js": "/React-Solar/static/js/main.f9ef1854.js",
+    "static/js/787.cf0a58ba.chunk.js": "/React-Solar/static/js/787.cf0a58ba.chunk.js",
+    "static/media/splash-screen.jpg": "/React-Solar/static/media/splash-screen.07675c86e3a4da43c8aa.jpg",
+    "static/media/Rectangle.png": "/React-Solar/static/media/Rectangle.4e565fe4a5ae5833f580.png",
+    "static/media/slogan.jpg": "/React-Solar/static/media/slogan.154a5a3abd43f9c1ac25.jpg",
+    "static/media/steps.png": "/React-Solar/static/media/steps.b79c5b076972bd75026f.png",
+    "static/media/services.jpg": "/React-Solar/static/media/services.e6733e24e692b17ede6c.jpg",
+    "static/media/secondClients.jpg": "/React-Solar/static/media/secondClients.84ac2a4a4f2be6f592f0.jpg",
+    "static/media/greenTariff.jpg": "/React-Solar/static/media/greenTariff.12e0ec96292ba2d981b3.jpg",
+    "static/media/firstClients.jpg": "/React-Solar/static/media/firstClients.66fb1062032a25e53548.jpg",
+    "static/media/3Clients.jpg": "/React-Solar/static/media/3Clients.ef4ea7ab87d7fc642697.jpg",
+    "static/media/carousel1.jpg": "/React-Solar/static/media/carousel1.e8b21bb75fb873b86745.jpg",
+    "static/media/carousel2.jpg": "/React-Solar/static/media/carousel2.afddcb20df815c100981.jpg",
+    "static/media/logo.svg": "/React-Solar/static/media/logo.94cce36568e3170a61949f235f2afa76.svg",
+    "static/media/whatsapp.svg": "/React-Solar/static/media/whatsapp.37152e0b85f1e0c2fa5c788201df118a.svg",
+    "static/media/instagram.svg": "/React-Solar/static/media/instagram.90788e65569c27639d05f8f5f7c75efc.svg",
+    "static/media/facebook.svg": "/React-Solar/static/media/facebook.36d99f510c0fadd817d1932104960288.svg",
+    "static/media/telegram.svg": "/React-Solar/static/media/telegram.9fad7ca044caa4337de12138d2ffe04f.svg",
+    "index.html": "/React-Solar/index.html",
+    "static/media/button.svg": "/React-Solar/static/media/button.37c884f9bbdefa972bc9ba08fb07aa25.svg",
+    "static/media/arrowLeft.svg": "/React-Solar/static/media/arrowLeft.2edd252d82e828dab09cd53b7712d84b.svg",
+    "static/media/arrowRight.svg": "/React-Solar/static/media/arrowRight.cfd0822dec7af23573d78d8c5d3ea510.svg",
+    "main.ece2d494.css.map": "/React-Solar/static/css/main.ece2d494.css.map",
+    "main.f9ef1854.js.map": "/React-Solar/static/js/main.f9ef1854.js.map",
+    "787.cf0a58ba.chunk.js.map": "/React-Solar/static/js/787.cf0a58ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ece2d494.css",
+    "static/js/main.f9ef1854.js"
+  ]
+}
