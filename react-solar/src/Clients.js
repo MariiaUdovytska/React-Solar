@@ -18,7 +18,7 @@ class Clients extends React.Component {
 						<div className='clients__body-left'>
 							<Carousel>
 								<div>
-									<img width={182} height={51} src={clients1} alt="Clients1" />
+									<img src={clients1} alt="Clients1" />
 								</div>
 								<div></div>
 								<div></div>

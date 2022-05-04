@@ -1,13 +1,17 @@
 .carousel{
+	min-height: 100%;
+   display: flex;
+   flex-direction: column;
 }
 .carousel__content{
-	height: 183px;
+	/* height: 183px; */
 	line-height: 19.07px;
 	display: grid;
+	flex: 1 1 auto;
 }
 
 .carousel__content-items{
-	max-width: 235px;
+	max-width: 100%;
 	overflow: hidden;
 	display: flex;
 }
@@ -28,8 +32,8 @@
 .carousel__btns-right{}
 
 
-@media (max-width: 795px) {
+/* @media (max-width: 795px) {
 	.carousel__content{
 		height: 194px;
 	}
-}
+} */

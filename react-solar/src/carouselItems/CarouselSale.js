@@ -7,7 +7,7 @@ function CarouselSale(props) {
 	return (
 		<div className='corouselSale'>
 			<div className='corouselSale__img'>
-				<img src={carousel1} alt='Carousel1' width={235} height={200}></img>
+				<img src={carousel1} alt='Carousel1'></img>
 			</div>
 			<div className='corouselSale__carousel'>
 				<Carousel>

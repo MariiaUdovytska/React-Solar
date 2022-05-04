@@ -8,7 +8,7 @@ function CarouselConsolidation(props) {
 	return (
 		<div className='corouselConsolidation'>
 			<div className='corouselConsolidation__img'>
-				<img src={Carousel2} alt='Carousel2' width={235} height={200}></img>
+				<img src={Carousel2} alt='Carousel2'></img>
 			</div>
 			<div className='corouselConsolidation__carousel'>
 				<Carousel>

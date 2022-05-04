@@ -1,18 +1,20 @@
 .corouselConsolidation{
 	display: flex;
 	flex-direction: row;
+	min-height: 100%;
 }
 .corouselConsolidation__img {
 	padding-right: 40px;
+	flex: 1 1 50%;
 }
 .corouselConsolidation__img img{
 	max-width: 100%;
-	/* height: 100%; */
+	height: 100%;
 	object-fit: none;
 	
 }
 .corouselConsolidation__carousel{
-
+	flex: 1 1 50%;
 }
 
 @media (max-width: 1132px){
@@ -31,8 +33,8 @@
 		padding-right: 10px;
 	}
 }
-@media (max-width: 795px) {
+/* @media (max-width: 795px) {
 	.corouselConsolidation__img{
 		padding-top: 8px;
 	}
-}
+} */
