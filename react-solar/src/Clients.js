@@ -4,6 +4,8 @@ import './css/buttonBlack.css';
 import Carousel from './Carousel';
 import Button from './Button';
 import clients1 from './img/clients/firstClients.jpg';
+import clients2 from './img/clients/secondClients.jpg';
+import clients3 from './img/clients/3Clients.jpg';
 
 class Clients extends React.Component {
 	constructor(props) {
@@ -16,12 +18,12 @@ class Clients extends React.Component {
 					<div className='clients__title titleM'>НАШИ КЛИЕНТЫ</div>
 					<div className='clients__body-row'>
 						<div className='clients__body-left'>
-							<Carousel  marginForBtns={{marginLeft:'50%', marginTop:'10px'}}>
-								<div>
+							<Carousel marginForBtns={{marginLeft:'50%', marginTop:'10px'}}>
+								<div className='clients__body-left-img'>
 									<img src={clients1} alt="Clients1" />
 								</div>
-								<div></div>
-								<div></div>
+								<div className='clients__body-left-img'><img src={clients2} alt="Clients2" /></div>
+								<div className='clients__body-left-img'><img src={clients3} alt="Clients3" /></div>
 								<div></div>
 							</Carousel>
 						</div>

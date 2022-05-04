@@ -39,10 +39,10 @@ class Carousel extends React.Component {
 					</div>
 				</div>
 				<div className='carousel__btns' style={this.props.marginForBtns}>
-					<button type="button" className='carousel__btns-left' onClick={this.leftButtonClick}>
+					<button type="button" className='carousel__btns-left' onClick={this.rigthButtonClick}>
 						<img src={arrowLeft} alt="Arrow left" width={40}></img>
 					</button>
-					<button type="button" className='carousel__btns-right' onClick={this.rigthButtonClick}>
+					<button type="button" className='carousel__btns-right' onClick={this.leftButtonClick}>
 						<img src={arrowRight} alt="Arrow right" width={40}></img>
 					</button>
 				</div>
