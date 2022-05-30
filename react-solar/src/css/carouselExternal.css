@@ -21,6 +21,12 @@
 	height: 2px;
 	background-color: #868585;
 }
+.carouselExternal__active{
+	cursor: pointer;
+}
+.carouselExternal__noactive{
+	cursor: pointer;
+}
 .carouselExternal__active:after{
 	display: block;
 	content: "";
