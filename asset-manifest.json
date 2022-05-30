@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Solar/static/css/main.352e323f.css",
-    "main.js": "/React-Solar/static/js/main.1e982aa9.js",
+    "main.css": "/React-Solar/static/css/main.4fa195bb.css",
+    "main.js": "/React-Solar/static/js/main.b9dbd7f6.js",
     "static/js/787.cf0a58ba.chunk.js": "/React-Solar/static/js/787.cf0a58ba.chunk.js",
     "static/media/Rectangle.png": "/React-Solar/static/media/Rectangle.4e565fe4a5ae5833f580.png",
     "static/media/slogan.jpg": "/React-Solar/static/media/slogan.154a5a3abd43f9c1ac25.jpg",
@@ -23,12 +23,12 @@
     "static/media/button.svg": "/React-Solar/static/media/button.37c884f9bbdefa972bc9ba08fb07aa25.svg",
     "static/media/arrowLeft.svg": "/React-Solar/static/media/arrowLeft.2edd252d82e828dab09cd53b7712d84b.svg",
     "static/media/arrowRight.svg": "/React-Solar/static/media/arrowRight.cfd0822dec7af23573d78d8c5d3ea510.svg",
-    "main.352e323f.css.map": "/React-Solar/static/css/main.352e323f.css.map",
-    "main.1e982aa9.js.map": "/React-Solar/static/js/main.1e982aa9.js.map",
+    "main.4fa195bb.css.map": "/React-Solar/static/css/main.4fa195bb.css.map",
+    "main.b9dbd7f6.js.map": "/React-Solar/static/js/main.b9dbd7f6.js.map",
     "787.cf0a58ba.chunk.js.map": "/React-Solar/static/js/787.cf0a58ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.352e323f.css",
-    "static/js/main.1e982aa9.js"
+    "static/css/main.4fa195bb.css",
+    "static/js/main.b9dbd7f6.js"
   ]
 }
