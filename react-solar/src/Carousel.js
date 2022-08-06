@@ -5,7 +5,7 @@ import arrowRight from './img/arrow/arrowRight.svg';
 class Carousel extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {move:0, postition:0};
+		this.state = {move:0, postition:0, touchPosition: null};
 	}
 
 	leftButtonClick = () =>{
@@ -24,15 +24,40 @@ class Carousel extends React.Component {
 		this.setState({move:lastMove + 100, postition: lastPos - 1});
 	}
 
+	handleTouchStart = (e) => {
+		const touchDown = e.touches[0].clientX
+		this.setState({touchPosition: touchDown});
+	}
+
+	handleTouchMove = (e) => {
+		const touchDown = this.state.touchPosition
+
+		if(touchDown === null) {
+			return
+		}
+
+		const currentTouch = e.touches[0].clientX
+		const diff = touchDown - currentTouch
+
+		if (diff > 5) {
+			this.leftButtonClick();
+		}
+
+		if (diff < -5) {
+			this.rigthButtonClick();
+		}
+
+		this.setState({touchPosition: null});
+	}
+
 	render(){
 		let value = `translateX(${this.state.move}%)`;
 		let itemsList= [];
-		for(let child= 0; child< this.props.children.length; child++)
-		{
+		for(let child= 0; child< this.props.children.length; child++){
 			itemsList.push(<div key={child} className='carousel__content-item' style={{transform: value}}>{this.props.children[child]}</div>)
 		}
 		return(
-			<div className='carousel'>
+			<div className='carousel' onTouchStart={this.handleTouchStart} onTouchMove={this.handleTouchMove}>
 				<div className='carousel__content'>
 					<div className='carousel__content-items'>
 						{itemsList}
